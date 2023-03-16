@@ -151,7 +151,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[No futeres Features]**
+- [ ] **[Displays random famous quotes]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
