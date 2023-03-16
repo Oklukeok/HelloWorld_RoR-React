@@ -184,7 +184,7 @@ I would like to thank
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="https://github.com/Oklukeok/HelloWorld_RoR-React/blob/setup/MIT.md"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
