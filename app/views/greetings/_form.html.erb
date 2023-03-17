@@ -1,0 +1,22 @@
+<%= form_with(model: greeting) do |form| %>
+  <% if greeting.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(greeting.errors.count, "error") %> prohibited this greeting from being saved:</h2>
+
+      <ul>
+        <% greeting.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :greeting, style: "display: block" %>
+    <%= form.text_field :greeting %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
